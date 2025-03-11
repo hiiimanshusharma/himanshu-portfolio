@@ -363,27 +363,15 @@ with tab3:
             
             Implemented Django Celery to efficiently execute tasks like code evaluation for a coding platform and AI-driven resume scoring and interview preparation.
             """)
-
-    with st.container():
-        st.markdown("#### Bussiness Technology Solutions Associate (BTSA) - Intern @ ZS Associates")
-        col5, col6 = st.columns([1, 4])
-
-        with col5:
-            st.markdown("`Febuary 2024` - `June 2024`")
-            st.markdown("Pune, Maharashtra")
-
-        with col6:
-            st.write("""
-            Collabrated for building Cyber Security RAG using Weaviate DB. Integrated scraping script to database using MYSQLConnection manager
-            """)
     
     with st.container():
         st.markdown("#### Bussiness Technology Solutions Associate (BTSA) - Intern @ ZS Associates")
         col7, col8 = st.columns([1, 4])
 
         with col7:
-            st.markdown("`January 2024`")
-            st.markdown("Hyderabad, Telangana (Remote)")
+            st.markdown("`Febuary 2024` - `June 2024`")
+            st.markdown("Pune, Maharashtra")
+            
 
         with col8:
             st.write("""
@@ -392,6 +380,20 @@ with tab3:
             Re-architected the project from MVP to business-ready state, ensuring scalability and usability.
             
             Contributed to ZS's multi-layered Data Warehousing pipeline (ingestion, acquisition, and warehousing), upgraded Airflow DAGs to the latest version, and integrated Generative AI solutions for DQM checks in the ingestion layer.
+            """)
+
+    with st.container():
+        st.markdown("#### Python Developer - Intern @ Culida Inc.")
+        col5, col6 = st.columns([1, 4])
+
+        with col5:
+            st.markdown("`January 2024`")
+            st.markdown("Hyderabad, Telangana (Remote)")
+            
+
+        with col6:
+            st.write("""
+            Collabrated for building Cyber Security RAG using Weaviate DB. Integrated scraping script to database using MYSQLConnection manager
             """)
 
 
